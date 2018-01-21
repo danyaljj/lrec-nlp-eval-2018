@@ -21,7 +21,8 @@ public class LRECEvalConfigurator extends PipelineConfigurator {
             NUM_FILES, OUTPUT_FILE,
                 new Property(CorpusReaderConfigurator.SOURCE_EXTENSION.key, ".xml"),
                 new Property(CorpusReaderConfigurator.ANNOTATION_EXTENSION.key, ".xml"),
-                new Property(CorpusReaderConfigurator.CORPUS_DIRECTORY.key, "/shared/experiments/mssammon/lrec2018/corpusFiles")
+//                new Property(CorpusReaderConfigurator.CORPUS_DIRECTORY.key, "/shared/experiments/mssammon/lrec2018/corpusFiles")
+                new Property(CorpusReaderConfigurator.CORPUS_DIRECTORY.key, "/shared/experiments/mssammon/lrec2018/corpusFilesPlain")
         };
 
         return new ResourceManager(generateProperties(properties));

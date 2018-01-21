@@ -18,8 +18,10 @@ import java.util.List;
 
 /**
  * Run a specified NLP component (and prerequisites) on a given set of documents. Report memory use and time taken.
- * TODO: compare against output from linux 'time' command.
- *
+ * Currently: expects plain text files, no xml markup.
+ * Writes a file "report.txt" that lists number of documents, tokens, and application perspective on time taken.
+ * NOTE: for actual time taken (and memory used), use the Gnu 'time' command -- see the script 'scripts/runEval.sh'
+ * 
  * @author mssammon
  */
 public class Evaluator {

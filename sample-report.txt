@@ -1,0 +1,3 @@
+Number of Documents: 999
+Number of Tokens: 820139
+Time taken: 79.789

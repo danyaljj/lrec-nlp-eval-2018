@@ -34,8 +34,13 @@ done
 CMD="java $FLAGS -cp $CP $MAIN $CONFIG"
 
 echo "$0: running command '$CMD'..."
+#echo $$>cmd.pid && echo "Process ID is: $$"  && exec $CMD
+#PID=
+#echo $$ && exec 
 
-time $CMD
+/usr/bin/time -v $CMD  >& cmd-time-report.txt
 
-echo "$0: done."
+#jmap -heap $!
+
+
 

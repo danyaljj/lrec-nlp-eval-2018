@@ -3,9 +3,14 @@ package org.cogcomp;
 import edu.illinois.cs.cogcomp.nlp.corpusreaders.XmlFragmentWhitespacingDocumentReader;
 
 /**
- * Created by mssammon on 1/14/18.
+ * A simple extension of a document reader that expects one document per file, and filters
+ *    out xml markup.
+ *
+ * @author mssammon
  */
 public class SimpleLRECDocReader extends XmlFragmentWhitespacingDocumentReader {
+
+    private static final String EXTENSION = ".txt"; //".xml";
 
     private final String sourceFileExtension;
 
@@ -16,6 +21,6 @@ public class SimpleLRECDocReader extends XmlFragmentWhitespacingDocumentReader {
 
     @Override
     protected String getRequiredFileExtension() {
-        return ".xml";// sourceFileExtension;
+        return EXTENSION;// sourceFileExtension;
     }
 }
