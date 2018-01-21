@@ -40,6 +40,8 @@ echo "$0: running command '$CMD'..."
 
 /usr/bin/time -v $CMD  >& cmd-time-report.txt
 
+scripts/extractTimeAndMemory.pl cmd-time-report.txt
+
 #jmap -heap $!
 
 
