@@ -57,6 +57,11 @@ INSTEAD, you should use a corpus reader from cogcomp-nlp/corpusreaders,
 or generate a new one.  There are beginnings in this project for a 
 Gigaword corpus reader, but it doesn't work yet.
 
+* the current evaluation approach includes the time to load models/resources
+in the runtime total. This allows us to follow a simple and hopefully
+foolproof approach to measure time taken, i.e. using the system time
+value reported by the Gnu "time" command. 
+
 
 TODO:
 * compute time/10k tokens
