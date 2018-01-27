@@ -1,5 +1,5 @@
 import os
-root_dir = "/Users/daniel/Desktop/corpusFilesPlain/"
+root_dir = "/scratch/lrec-eval/corpusFilesPlain/"
 files = [item for item in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, item))]  # Filter the items and only keep files (strip out directories)
 
 
