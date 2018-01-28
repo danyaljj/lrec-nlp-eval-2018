@@ -1,7 +1,6 @@
 import os
 
-from nltk.tokenize import sent_tokenize
-
+import nltk
 from get_folder import getFolder
 
 root_dir = getFolder()
@@ -11,5 +10,5 @@ files = [item for item in os.listdir(root_dir) if os.path.isfile(os.path.join(ro
 for ff in files:
     f = open(root_dir + ff, 'r')
     paragraph = f.read()
-    sent_tokenize_list = sent_tokenize(paragraph)
+    tokens = nltk.word_tokenize(paragraph)
     f.close()

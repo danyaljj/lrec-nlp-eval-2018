@@ -2,7 +2,7 @@ import os
 
 import nltk
 
-from get_folder import getFolder
+from python.nltk.get_folder import getFolder
 
 root_dir = getFolder()
 print(root_dir)
@@ -13,5 +13,4 @@ for ff in files:
     paragraph = f.read()
     tokens = nltk.word_tokenize(paragraph)
     tagged = nltk.pos_tag(tokens)
-    entities = nltk.chunk.ne_chunk(tagged)
     f.close()

@@ -11,5 +11,5 @@ files = [item for item in os.listdir(root_dir) if os.path.isfile(os.path.join(ro
 for ff in files:
     f = open(root_dir + ff, 'r')
     paragraph = f.read()
-    tokens = nltk.word_tokenize(paragraph)
+    sent_tokenize_list = nltk.sent_tokenize(paragraph)
     f.close()

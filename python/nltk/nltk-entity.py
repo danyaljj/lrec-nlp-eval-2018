@@ -13,5 +13,5 @@ for ff in files:
     paragraph = f.read()
     tokens = nltk.word_tokenize(paragraph)
     tagged = nltk.pos_tag(tokens)
-
+    entities = nltk.chunk.ne_chunk(tagged)
     f.close()
