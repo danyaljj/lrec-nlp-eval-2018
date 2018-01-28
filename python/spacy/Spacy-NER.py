@@ -1,6 +1,6 @@
 import os
 
-from python.get_folder import getFolder
+from python.nltk.get_folder import getFolder
 
 root_dir = getFolder()
 files = [item for item in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, item))]  # Filter the items and only keep files (strip out directories)

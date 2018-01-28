@@ -2,7 +2,7 @@ import os
 
 import nltk
 
-from python.get_folder import getFolder
+from get_folder import getFolder
 
 root_dir = getFolder()
 print(root_dir)
