@@ -1,0 +1,45 @@
+import os
+
+# from textblob import TextBlob
+from python.textblob.textblob import TextBlob
+
+from get_folder import getFolder
+
+root_dir = getFolder()
+print(root_dir)
+files = [item for item in os.listdir(root_dir) if os.path.isfile(os.path.join(root_dir, item))]  # Filter the items and only keep files (strip out directories)
+
+for ff in files:
+    f = open(root_dir + ff, 'r')
+    paragraph = f.read()
+    sent_tokenize_list = nltk.sent_tokenize(paragraph)
+    f.close()
+
+
+
+
+text = '''
+The titular threat of The Blob has always struck me as the ultimate movie
+monster: an insatiably hungry, amoeba-like mass able to penetrate
+virtually any safeguard, capable of--as a doomed doctor chillingly
+describes it--"assimilating flesh on contact.
+Snide comparisons to gelatin be damned, it's a concept with the most
+devastating of potential consequences, not unlike the grey goo scenario
+proposed by technological theorists fearful of
+artificial intelligence run rampant.
+'''
+
+blob = TextBlob(text)
+blob.tags           # [('The', 'DT'), ('titular', 'JJ'),
+                    #  ('threat', 'NN'), ('of', 'IN'), ...]
+
+blob.noun_phrases   # WordList(['titular threat', 'blob',
+                    #            'ultimate movie monster',
+                    #            'amoeba-like mass', ...])
+
+for sentence in blob.sentences:
+    print(sentence.sentiment.polarity)
+# 0.060
+# -0.341
+
+blob.translate(to="es")  # 'La amenaza titular de The Blob...'
