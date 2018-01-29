@@ -14,7 +14,7 @@ DEP="target/dependency"
 
 if [[ !(-e $TARGET) || !(-e $DEP) ]]
 then
-    mvn install && mvn dependency:copy-dependencies
+    /home/khashab2/apache-maven-3.5.2/bin/mvn install && /home/khashab2/apache-maven-3.5.2/bin/mvn dependency:copy-dependencies
 fi
 
 MAIN="org.cogcomp.OpenNLP"
@@ -36,9 +36,9 @@ echo "$0: running command '$CMD'..."
 
 $CMD
 
-/usr/bin/time -v $CMD  > cmd-time-report-opennlp$1.txt
+#/usr/bin/time -v $CMD  > cmd-time-report-opennlp$1.txt
 
-scripts/extractTimeAndMemory.pl cmd-time-report-opennlp$1.txt  > opennlp-time$1.txt
+#scripts/extractTimeAndMemory.pl cmd-time-report-opennlp$1.txt  > opennlp-time$1.txt
 
 #jmap -heap $!
 
