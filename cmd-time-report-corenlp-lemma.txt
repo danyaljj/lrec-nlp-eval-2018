@@ -1,0 +1,219 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lrec-nlp-eval 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for edu.illinois.cs.cogcomp:illinois-prepsrl-model:jar:3.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lrec-nlp-eval ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/khashab2/lrec-nlp-eval-2018/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ lrec-nlp-eval ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 10 source files to /home/khashab2/lrec-nlp-eval-2018/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lrec-nlp-eval ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/khashab2/lrec-nlp-eval-2018/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ lrec-nlp-eval ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ lrec-nlp-eval ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lrec-nlp-eval ---
+[INFO] Building jar: /home/khashab2/lrec-nlp-eval-2018/target/lrec-nlp-eval-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ lrec-nlp-eval ---
+[INFO] Installing /home/khashab2/lrec-nlp-eval-2018/target/lrec-nlp-eval-1.0-SNAPSHOT.jar to /home/khashab2/.m2/repository/org/cogcomp/lrec-nlp-eval/1.0-SNAPSHOT/lrec-nlp-eval-1.0-SNAPSHOT.jar
+[INFO] Installing /home/khashab2/lrec-nlp-eval-2018/pom.xml to /home/khashab2/.m2/repository/org/cogcomp/lrec-nlp-eval/1.0-SNAPSHOT/lrec-nlp-eval-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.869 s
+[INFO] Finished at: 2018-01-29T18:35:14-06:00
+[INFO] Final Memory: 39M/622M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lrec-nlp-eval 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for edu.illinois.cs.cogcomp:illinois-prepsrl-model:jar:3.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (default-cli) @ lrec-nlp-eval ---
+[INFO] Copying commons-lang3-3.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/commons-lang3-3.4.jar
+[INFO] Copying jaxb-api-2.2.7.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jaxb-api-2.2.7.jar
+[INFO] Copying jcip-annotations-1.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jcip-annotations-1.0.jar
+[INFO] Copying httpcore-4.1.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/httpcore-4.1.3.jar
+[INFO] Copying illinois-prepsrl-model-3.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-prepsrl-model-3.1.jar
+[INFO] Copying illinois-comma-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-comma-4.0.1.jar
+[INFO] Copying illinois-curator-3.1.36.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-curator-3.1.36.jar
+[INFO] Copying okio-1.6.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/okio-1.6.0.jar
+[INFO] Copying lucene-analyzers-common-4.10.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/lucene-analyzers-common-4.10.3.jar
+[INFO] Copying slf4j-api-1.7.12.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/slf4j-api-1.7.12.jar
+[INFO] Copying kotlin-stdlib-1.0.7.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/kotlin-stdlib-1.0.7.jar
+[INFO] Copying wordnet-1.0-binary.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/wordnet-1.0-binary.jar
+[INFO] Copying illinois-pos-models-3.0.13.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-pos-models-3.0.13.jar
+[INFO] Copying javax.json-1.0.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/javax.json-1.0.4.jar
+[INFO] Copying illinois-md-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-md-4.0.1.jar
+[INFO] Copying lucene-core-4.10.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/lucene-core-4.10.3.jar
+[INFO] Copying gson-2.3.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/gson-2.3.1.jar
+[INFO] Copying illinois-srl-5.1.15.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-srl-5.1.15.jar
+[INFO] Copying lucene-sandbox-4.10.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/lucene-sandbox-4.10.3.jar
+[INFO] Copying commons-logging-1.1.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/commons-logging-1.1.1.jar
+[INFO] Copying jetty-servlet-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jetty-servlet-9.3.6.v20151106.jar
+[INFO] Copying javax.servlet-api-3.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/javax.servlet-api-3.0.1.jar
+[INFO] Copying protobuf-java-3.2.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/protobuf-java-3.2.0.jar
+[INFO] Copying websocket-servlet-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/websocket-servlet-9.3.6.v20151106.jar
+[INFO] Copying icu4j-56.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/icu4j-56.1.jar
+[INFO] Copying illinois-tokenizer-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-tokenizer-4.0.1.jar
+[INFO] Copying jung-api-2.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jung-api-2.0.1.jar
+[INFO] Copying jackson-core-2.8.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jackson-core-2.8.4.jar
+[INFO] Copying jollyday-0.4.9.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jollyday-0.4.9.jar
+[INFO] Copying httpclient-4.1.2.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/httpclient-4.1.2.jar
+[INFO] Copying protobuf-java-util-3.2.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/protobuf-java-util-3.2.0.jar
+[INFO] Copying lz4-1.3.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/lz4-1.3.0.jar
+[INFO] Copying minio-3.0.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/minio-3.0.3.jar
+[INFO] Copying jgrapht-0.8.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jgrapht-0.8.3.jar
+[INFO] Copying stanford-corenlp-3.8.0-models.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/stanford-corenlp-3.8.0-models.jar
+[INFO] Copying jwi-2.2.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jwi-2.2.3.jar
+[INFO] Copying collections-generic-4.01.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/collections-generic-4.01.jar
+[INFO] Copying jsr305-1.3.9.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jsr305-1.3.9.jar
+[INFO] Copying illinois-sl-core-1.0.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-sl-core-1.0.3.jar
+[INFO] Copying guava-19.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/guava-19.0.jar
+[INFO] Copying illinois-chunker-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-chunker-4.0.1.jar
+[INFO] Copying opennlp-tools-1.8.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/opennlp-tools-1.8.4.jar
+[INFO] Copying ejml-0.23.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/ejml-0.23.jar
+[INFO] Copying argparse4j-0.7.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/argparse4j-0.7.0.jar
+[INFO] Copying illinois-edison-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-edison-4.0.1.jar
+[INFO] Copying illinois-datalessclassification-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-datalessclassification-4.0.1.jar
+[INFO] Copying jetty-security-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jetty-security-9.3.6.v20151106.jar
+[INFO] Copying google-http-client-xml-1.20.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/google-http-client-xml-1.20.0.jar
+[INFO] Copying illinois-prep-srl-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-prep-srl-4.0.1.jar
+[INFO] Copying xml-apis-1.3.03.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/xml-apis-1.3.03.jar
+[INFO] Copying wordnet-dict-3.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/wordnet-dict-3.1.jar
+[INFO] Copying illinois-transliteration-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-transliteration-4.0.1.jar
+[INFO] Copying stanford_3.3.1-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/stanford_3.3.1-4.0.1.jar
+[INFO] Copying illinois-depparse-model-3.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-depparse-model-3.0.jar
+[INFO] Copying illinois-time-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-time-4.0.1.jar
+[INFO] Copying jetty-server-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jetty-server-9.3.6.v20151106.jar
+[INFO] Copying okhttp-2.7.2.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/okhttp-2.7.2.jar
+[INFO] Copying jetty-xml-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jetty-xml-9.3.6.v20151106.jar
+[INFO] Copying jackson-databind-2.8.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jackson-databind-2.8.4.jar
+[INFO] Copying jung-graph-impl-2.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jung-graph-impl-2.0.1.jar
+[INFO] Copying illinois-ner-model-3.3-CoNLL_enron.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-ner-model-3.3-CoNLL_enron.jar
+[INFO] Copying IllinoisSL-core-0.1-withJLIS.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/IllinoisSL-core-0.1-withJLIS.jar
+[INFO] Copying commons-io-1.3.2.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/commons-io-1.3.2.jar
+[INFO] Copying h2-1.4.191.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/h2-1.4.191.jar
+[INFO] Copying stanford-corenlp-3.8.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/stanford-corenlp-3.8.0.jar
+[INFO] Copying java-cup-0.11a.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/java-cup-0.11a.jar
+[INFO] Copying websocket-server-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/websocket-server-9.3.6.v20151106.jar
+[INFO] Copying trove4j-3.0.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/trove4j-3.0.3.jar
+[INFO] Copying progressbar-0.5.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/progressbar-0.5.3.jar
+[INFO] Copying curator-interfaces-0.7.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/curator-interfaces-0.7.jar
+[INFO] Copying jetty-io-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jetty-io-9.3.6.v20151106.jar
+[INFO] Copying jackson-annotations-2.8.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jackson-annotations-2.8.4.jar
+[INFO] Copying jetty-webapp-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jetty-webapp-9.3.6.v20151106.jar
+[INFO] Copying xom-1.2.10.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/xom-1.2.10.jar
+[INFO] Copying illinois-inference-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-inference-4.0.1.jar
+[INFO] Copying commons-cli-1.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/commons-cli-1.4.jar
+[INFO] Copying heideltime-2.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/heideltime-2.1.jar
+[INFO] Copying illinois-nlp-pipeline-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-nlp-pipeline-4.0.1.jar
+[INFO] Copying illinois-verbsense-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-verbsense-4.0.1.jar
+[INFO] Copying websocket-client-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/websocket-client-9.3.6.v20151106.jar
+[INFO] Copying illinois-pos-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-pos-4.0.1.jar
+[INFO] Copying xalan-2.7.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/xalan-2.7.0.jar
+[INFO] Copying jline-2.12.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jline-2.12.jar
+[INFO] Copying snowball-1.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/snowball-1.0.jar
+[INFO] Copying illinois-ner-model-3.3-OntoNotes.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-ner-model-3.3-OntoNotes.jar
+[INFO] Copying lucene-queryparser-4.10.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/lucene-queryparser-4.10.3.jar
+[INFO] Copying inference-0.5.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/inference-0.5.0.jar
+[INFO] Copying junit-4.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/junit-4.4.jar
+[INFO] Copying weka-stable-3.6.10.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/weka-stable-3.6.10.jar
+[INFO] Copying uimaj-core-2.8.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/uimaj-core-2.8.1.jar
+[INFO] Copying LBJava-NLP-tools-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/LBJava-NLP-tools-4.0.1.jar
+[INFO] Copying commons-lang-2.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/commons-lang-2.3.jar
+[INFO] Copying illinois-lemmatizer-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-lemmatizer-4.0.1.jar
+[INFO] Copying joda-time-2.9.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/joda-time-2.9.4.jar
+[INFO] Copying illinois-corpusreaders-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-corpusreaders-4.0.1.jar
+[INFO] Copying eclipse-collections-forkjoin-7.1.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/eclipse-collections-forkjoin-7.1.1.jar
+[INFO] Copying spark-core-2.5.5.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/spark-core-2.5.5.jar
+[INFO] Copying illinois-srl-models-5.1-nom-stanford.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-srl-models-5.1-nom-stanford.jar
+[INFO] Copying websocket-api-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/websocket-api-9.3.6.v20151106.jar
+[INFO] Copying ehcache-2.8.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/ehcache-2.8.3.jar
+[INFO] Copying gurobi-7.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/gurobi-7.0.1.jar
+[INFO] Copying illinois-sl-1.3.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-sl-1.3.1.jar
+[INFO] Copying AppleJavaExtensions-1.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/AppleJavaExtensions-1.4.jar
+[INFO] Copying jetty-util-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jetty-util-9.3.6.v20151106.jar
+[INFO] Copying libthrift-0.8.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/libthrift-0.8.0.jar
+[INFO] Copying illinois-common-resources-1.4-illinoisSRL.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-common-resources-1.4-illinoisSRL.jar
+[INFO] Copying elsa-3.0.0-M5.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/elsa-3.0.0-M5.jar
+[INFO] Copying illinois-time-models-1.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-time-models-1.0.jar
+[INFO] Copying commons-configuration-1.6.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/commons-configuration-1.6.jar
+[INFO] Copying google-http-client-1.20.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/google-http-client-1.20.0.jar
+[INFO] Copying xercesImpl-2.8.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/xercesImpl-2.8.0.jar
+[INFO] Copying commons-collections-3.2.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/commons-collections-3.2.1.jar
+[INFO] Copying illinois-srl-models-5.1-verb-stanford.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-srl-models-5.1-verb-stanford.jar
+[INFO] Copying eclipse-collections-api-7.1.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/eclipse-collections-api-7.1.1.jar
+[INFO] Copying lucene-queries-4.10.3.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/lucene-queries-4.10.3.jar
+[INFO] Copying jetty-http-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jetty-http-9.3.6.v20151106.jar
+[INFO] Copying json-simple-1.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/json-simple-1.1.jar
+[INFO] Copying mysql-connector-java-5.1.34.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/mysql-connector-java-5.1.34.jar
+[INFO] Copying illinois-core-utilities-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-core-utilities-4.0.1.jar
+[INFO] Copying LBJava-1.3.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/LBJava-1.3.0.jar
+[INFO] Copying ChuLiuEdmonds-1.0-SNAPSHOT.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/ChuLiuEdmonds-1.0-SNAPSHOT.jar
+[INFO] Copying eclipse-collections-7.1.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/eclipse-collections-7.1.1.jar
+[INFO] Copying illinois-chunker-model-3.0.77.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-chunker-model-3.0.77.jar
+[INFO] Copying mapdb-3.0.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/mapdb-3.0.4.jar
+[INFO] Copying illinois-relation-extraction-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-relation-extraction-4.0.1.jar
+[INFO] Copying kotlin-runtime-1.0.7.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/kotlin-runtime-1.0.7.jar
+[INFO] Copying ojalgo-40.0.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/ojalgo-40.0.0.jar
+[INFO] Copying cogcomp-datastore-1.9.10.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/cogcomp-datastore-1.9.10.jar
+[INFO] Copying pinyin4j-2.5.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/pinyin4j-2.5.0.jar
+[INFO] Copying jwnl-prime-1.0.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/jwnl-prime-1.0.4.jar
+[INFO] Copying colt-1.2.0.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/colt-1.2.0.jar
+[INFO] Copying liblinear-1.94.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/liblinear-1.94.jar
+[INFO] Copying illinois-quantifier-models-2.0.5.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-quantifier-models-2.0.5.jar
+[INFO] Copying illinois-quantifier-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-quantifier-4.0.1.jar
+[INFO] Copying illinois-depparse-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-depparse-4.0.1.jar
+[INFO] Copying concurrent-1.3.4.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/concurrent-1.3.4.jar
+[INFO] Copying illinois-ner-4.0.1.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/illinois-ner-4.0.1.jar
+[INFO] Copying commons-codec-1.8.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/commons-codec-1.8.jar
+[INFO] Copying commons-math3-3.6.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/commons-math3-3.6.jar
+[INFO] Copying websocket-common-9.3.6.v20151106.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/websocket-common-9.3.6.v20151106.jar
+[INFO] Copying xpp3-1.1.4c.jar to /home/khashab2/lrec-nlp-eval-2018/target/dependency/xpp3-1.1.4c.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.460 s
+[INFO] Finished at: 2018-01-29T18:35:16-06:00
+[INFO] Final Memory: 18M/483M
+[INFO] ------------------------------------------------------------------------
+./scripts/runEval-corenlp.sh: running command 'java -Xmx4g -cp .:target/lrec-nlp-eval-1.0-SNAPSHOT.jar:target/dependency/AppleJavaExtensions-1.4.jar:target/dependency/argparse4j-0.7.0.jar:target/dependency/ChuLiuEdmonds-1.0-SNAPSHOT.jar:target/dependency/cogcomp-datastore-1.9.10.jar:target/dependency/collections-generic-4.01.jar:target/dependency/colt-1.2.0.jar:target/dependency/commons-cli-1.4.jar:target/dependency/commons-codec-1.8.jar:target/dependency/commons-collections-3.2.1.jar:target/dependency/commons-configuration-1.6.jar:target/dependency/commons-io-1.3.2.jar:target/dependency/commons-lang-2.3.jar:target/dependency/commons-lang3-3.4.jar:target/dependency/commons-logging-1.1.1.jar:target/dependency/commons-math3-3.6.jar:target/dependency/concurrent-1.3.4.jar:target/dependency/curator-interfaces-0.7.jar:target/dependency/eclipse-collections-7.1.1.jar:target/dependency/eclipse-collections-api-7.1.1.jar:target/dependency/eclipse-collections-forkjoin-7.1.1.jar:target/dependency/ehcache-2.8.3.jar:target/dependency/ejml-0.23.jar:target/dependency/elsa-3.0.0-M5.jar:target/dependency/google-http-client-1.20.0.jar:target/dependency/google-http-client-xml-1.20.0.jar:target/dependency/gson-2.3.1.jar:target/dependency/guava-19.0.jar:target/dependency/gurobi-7.0.1.jar:target/dependency/h2-1.4.191.jar:target/dependency/heideltime-2.1.jar:target/dependency/httpclient-4.1.2.jar:target/dependency/httpcore-4.1.3.jar:target/dependency/icu4j-56.1.jar:target/dependency/illinois-chunker-4.0.1.jar:target/dependency/illinois-chunker-model-3.0.77.jar:target/dependency/illinois-comma-4.0.1.jar:target/dependency/illinois-common-resources-1.4-illinoisSRL.jar:target/dependency/illinois-core-utilities-4.0.1.jar:target/dependency/illinois-corpusreaders-4.0.1.jar:target/dependency/illinois-curator-3.1.36.jar:target/dependency/illinois-datalessclassification-4.0.1.jar:target/dependency/illinois-depparse-4.0.1.jar:target/dependency/illinois-depparse-model-3.0.jar:target/dependency/illinois-edison-4.0.1.jar:target/dependency/illinois-inference-4.0.1.jar:target/dependency/illinois-lemmatizer-4.0.1.jar:target/dependency/illinois-md-4.0.1.jar:target/dependency/illinois-ner-4.0.1.jar:target/dependency/illinois-ner-model-3.3-CoNLL_enron.jar:target/dependency/illinois-ner-model-3.3-OntoNotes.jar:target/dependency/illinois-nlp-pipeline-4.0.1.jar:target/dependency/illinois-pos-4.0.1.jar:target/dependency/illinois-pos-models-3.0.13.jar:target/dependency/illinois-prep-srl-4.0.1.jar:target/dependency/illinois-prepsrl-model-3.1.jar:target/dependency/illinois-quantifier-4.0.1.jar:target/dependency/illinois-quantifier-models-2.0.5.jar:target/dependency/illinois-relation-extraction-4.0.1.jar:target/dependency/illinois-sl-1.3.1.jar:target/dependency/IllinoisSL-core-0.1-withJLIS.jar:target/dependency/illinois-sl-core-1.0.3.jar:target/dependency/illinois-srl-5.1.15.jar:target/dependency/illinois-srl-models-5.1-nom-stanford.jar:target/dependency/illinois-srl-models-5.1-verb-stanford.jar:target/dependency/illinois-time-4.0.1.jar:target/dependency/illinois-time-models-1.0.jar:target/dependency/illinois-tokenizer-4.0.1.jar:target/dependency/illinois-transliteration-4.0.1.jar:target/dependency/illinois-verbsense-4.0.1.jar:target/dependency/inference-0.5.0.jar:target/dependency/jackson-annotations-2.8.4.jar:target/dependency/jackson-core-2.8.4.jar:target/dependency/jackson-databind-2.8.4.jar:target/dependency/java-cup-0.11a.jar:target/dependency/javax.json-1.0.4.jar:target/dependency/javax.servlet-api-3.0.1.jar:target/dependency/jaxb-api-2.2.7.jar:target/dependency/jcip-annotations-1.0.jar:target/dependency/jetty-http-9.3.6.v20151106.jar:target/dependency/jetty-io-9.3.6.v20151106.jar:target/dependency/jetty-security-9.3.6.v20151106.jar:target/dependency/jetty-server-9.3.6.v20151106.jar:target/dependency/jetty-servlet-9.3.6.v20151106.jar:target/dependency/jetty-util-9.3.6.v20151106.jar:target/dependency/jetty-webapp-9.3.6.v20151106.jar:target/dependency/jetty-xml-9.3.6.v20151106.jar:target/dependency/jgrapht-0.8.3.jar:target/dependency/jline-2.12.jar:target/dependency/joda-time-2.9.4.jar:target/dependency/jollyday-0.4.9.jar:target/dependency/json-simple-1.1.jar:target/dependency/jsr305-1.3.9.jar:target/dependency/jung-api-2.0.1.jar:target/dependency/jung-graph-impl-2.0.1.jar:target/dependency/junit-4.4.jar:target/dependency/jwi-2.2.3.jar:target/dependency/jwnl-prime-1.0.4.jar:target/dependency/kotlin-runtime-1.0.7.jar:target/dependency/kotlin-stdlib-1.0.7.jar:target/dependency/LBJava-1.3.0.jar:target/dependency/LBJava-NLP-tools-4.0.1.jar:target/dependency/liblinear-1.94.jar:target/dependency/libthrift-0.8.0.jar:target/dependency/lucene-analyzers-common-4.10.3.jar:target/dependency/lucene-core-4.10.3.jar:target/dependency/lucene-queries-4.10.3.jar:target/dependency/lucene-queryparser-4.10.3.jar:target/dependency/lucene-sandbox-4.10.3.jar:target/dependency/lz4-1.3.0.jar:target/dependency/mapdb-3.0.4.jar:target/dependency/minio-3.0.3.jar:target/dependency/mysql-connector-java-5.1.34.jar:target/dependency/ojalgo-40.0.0.jar:target/dependency/okhttp-2.7.2.jar:target/dependency/okio-1.6.0.jar:target/dependency/opennlp-tools-1.8.4.jar:target/dependency/pinyin4j-2.5.0.jar:target/dependency/progressbar-0.5.3.jar:target/dependency/protobuf-java-3.2.0.jar:target/dependency/protobuf-java-util-3.2.0.jar:target/dependency/slf4j-api-1.7.12.jar:target/dependency/snowball-1.0.jar:target/dependency/spark-core-2.5.5.jar:target/dependency/stanford_3.3.1-4.0.1.jar:target/dependency/stanford-corenlp-3.8.0.jar:target/dependency/stanford-corenlp-3.8.0-models.jar:target/dependency/trove4j-3.0.3.jar:target/dependency/uimaj-core-2.8.1.jar:target/dependency/websocket-api-9.3.6.v20151106.jar:target/dependency/websocket-client-9.3.6.v20151106.jar:target/dependency/websocket-common-9.3.6.v20151106.jar:target/dependency/websocket-server-9.3.6.v20151106.jar:target/dependency/websocket-servlet-9.3.6.v20151106.jar:target/dependency/weka-stable-3.6.10.jar:target/dependency/wordnet-1.0-binary.jar:target/dependency/wordnet-dict-3.1.jar:target/dependency/xalan-2.7.0.jar:target/dependency/xercesImpl-2.8.0.jar:target/dependency/xml-apis-1.3.03.jar:target/dependency/xom-1.2.10.jar:target/dependency/xpp3-1.1.4c.jar org.cogcomp.CoreNLP lemma'...
+	Command being timed: "./scripts/runEval-corenlp.sh lemma"
+	User time (seconds): 17.84
+	System time (seconds): 0.79
+	Percent of CPU this job got: 356%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 403988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 96081
+	Voluntary context switches: 10834
+	Involuntary context switches: 228
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1831616
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
