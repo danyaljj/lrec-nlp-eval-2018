@@ -103,6 +103,27 @@ public class CoreNLP {
         }
     }
 
+    public static void Lemma() throws IOException {
+        File folder = new File(f);
+        File[] listOfFiles = folder.listFiles();
+
+        Properties props = new Properties();
+        props.put("annotators", "tokenize, ssplit, pos, lemma");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+
+        for (int i = 0; i < listOfFiles.length; i++) {
+            //System.out.println("file: " + listOfFiles[i]);
+            if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".txt")) {
+                String content = new String(Files.readAllBytes(Paths.get(listOfFiles[i].getPath())));
+                Annotation document = new Annotation(content);
+                pipeline.annotate(document);
+                //System.out.println(document.get(CoreAnnotations.SentencesAnnotation.class).size());
+            } else if (listOfFiles[i].isDirectory()) {
+                System.out.println("Directory " + listOfFiles[i].getName());
+            }
+        }
+    }
+
     public static void pos() throws IOException {
         File folder = new File(f);
         File[] listOfFiles = folder.listFiles();
