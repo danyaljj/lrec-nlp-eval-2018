@@ -39,7 +39,7 @@ public class OpenNLP {
         else if(args[0].contains("ner")) {
             NER();
         }
-        else if(args[0].contains("pos_maxent")) {
+        else if(args[0].contains("pos")) {
             pos_maxent();
         }
         else if(args[0].contains("pos_perceptron")) {
