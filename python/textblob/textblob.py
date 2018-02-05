@@ -1,5 +1,5 @@
 # from textblob import TextBlob
-from python.textblob.textblob import TextBlob
+from textblob import TextBlob
 
 text = '''
 The titular threat of The Blob has always struck me as the ultimate movie
