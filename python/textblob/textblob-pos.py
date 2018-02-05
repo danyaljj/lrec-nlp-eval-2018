@@ -11,5 +11,5 @@ for ff in files:
     f = open(root_dir + ff, 'r')
     paragraph = f.read()
     blob = TextBlob(paragraph)
-    blob.sentences  # [('The', 'DT'), ('titular', 'JJ'),
+    blob.tags
     f.close()
