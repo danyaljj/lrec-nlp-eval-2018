@@ -1,7 +1,7 @@
 import os
 
 from get_folder import getFolder
-import textblob
+from textblob import TextBlob
 
 root_dir = getFolder()
 print(root_dir)
@@ -11,5 +11,5 @@ for ff in files:
     f = open(root_dir + ff, 'r')
     paragraph = f.read()
     blob = TextBlob(paragraph)
-    blob.words  # [('The', 'DT'), ('titular', 'JJ'),
+    blob.sentences
     f.close()

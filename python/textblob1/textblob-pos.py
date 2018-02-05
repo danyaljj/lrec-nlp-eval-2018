@@ -1,7 +1,7 @@
 import os
 
 from get_folder import getFolder
-import textblob
+from textblob import TextBlob
 
 root_dir = getFolder()
 print(root_dir)
