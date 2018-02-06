@@ -10,9 +10,6 @@ import spacy
 
 # Load English tokenizer, tagger, parser, NER and word vectors
 nlp = spacy.load('en')
-nlp.disable_pipes('ner')
-print(nlp.pipe_names)
-
 
 for ff in files:
     f = open(root_dir + ff, 'r')
