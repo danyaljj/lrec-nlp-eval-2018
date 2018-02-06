@@ -1,4 +1,4 @@
 
 def getFolder():
-    return "/Users/daniel/Desktop/corpusFilesPlain/"
-    # return "/scratch/lrec-eval/corpusFilesPlain/"
+    # return "/Users/daniel/Desktop/corpusFilesPlain/"
+    return "/scratch/lrec-eval/corpusFilesPlain/"
