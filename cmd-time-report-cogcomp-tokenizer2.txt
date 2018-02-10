@@ -13,25 +13,25 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.188 s
-[INFO] Finished at: 2018-02-09T21:42:54-06:00
-[INFO] Final Memory: 17M/609M
+[INFO] Total time: 2.113 s
+[INFO] Finished at: 2018-02-10T12:15:16-06:00
+[INFO] Final Memory: 23M/489M
 [INFO] ------------------------------------------------------------------------
-	Command being timed: "../apache-maven-3.5.2/bin/mvn exec:java -Dexec.mainClass=org.cogcomp.CogComp2ndTry -Dexec.args=tokenizer2"
-	User time (seconds): 7.56
-	System time (seconds): 0.16
-	Percent of CPU this job got: 366%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.11
+	Command being timed: "../apache-maven-3.5.2/bin/mvn exec:java -Dexec.mainClass=org.cogcomp.CogComp2ndTry -Dexec.args=tokenizer"
+	User time (seconds): 11.91
+	System time (seconds): 0.20
+	Percent of CPU this job got: 395%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.06
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 339024
+	Maximum resident set size (kbytes): 423284
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 33473
-	Voluntary context switches: 4485
-	Involuntary context switches: 347
+	Minor (reclaiming a frame) page faults: 39048
+	Voluntary context switches: 5301
+	Involuntary context switches: 265
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 72
