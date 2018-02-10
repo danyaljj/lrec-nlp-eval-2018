@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lrec-nlp-eval 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for edu.illinois.cs.cogcomp:illinois-prepsrl-model:jar:3.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ lrec-nlp-eval ---
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.878 s
+[INFO] Finished at: 2018-02-10T14:09:34-06:00
+[INFO] Final Memory: 34M/872M
+[INFO] ------------------------------------------------------------------------
+	Command being timed: "../apache-maven-3.5.2/bin/mvn exec:java -Dexec.mainClass=org.cogcomp.CoreNLP -Dexec.args=sentence"
+	User time (seconds): 10.81
+	System time (seconds): 0.20
+	Percent of CPU this job got: 380%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 486824
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38331
+	Voluntary context switches: 5178
+	Involuntary context switches: 800
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
