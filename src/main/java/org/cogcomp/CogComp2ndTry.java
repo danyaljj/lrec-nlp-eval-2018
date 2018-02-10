@@ -21,8 +21,6 @@ public class CogComp2ndTry {
 
     public static void main(String[] args) throws IOException, AnnotatorException {
         System.out.println("Starting to execute thins ... ");
-        ner();
-
         if(args[0].contains("tokenizer")) {
             tokenizer();
         }
