@@ -9,7 +9,9 @@ files = [item for item in os.listdir(root_dir) if os.path.isfile(os.path.join(ro
 import spacy
 
 # Load English tokenizer, tagger, parser, NER and word vectors
-nlp = spacy.load('en')
+nlp = spacy.load('en',  disable=['parser'])
+
+
 
 for ff in files:
     f = open(root_dir + ff, 'r')
