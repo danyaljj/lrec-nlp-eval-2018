@@ -16,9 +16,9 @@ for ff in files:
     paragraph = f.read()
     doc = nlp(paragraph)
     sentences = list(doc.sents)
-    [tok for tok in doc]
-    [chunk  for chunk in doc.noun_chunks]
-    [tok.lemma_ for tok in doc]
-    [entity.text for entity in doc.ents]
-    [tok.pos_ for tok in doc]
+#    [tok for tok in doc]
+#    [chunk  for chunk in doc.noun_chunks]
+#    [tok.lemma_ for tok in doc]
+#    [entity.text for entity in doc.ents]
+#    [tok.pos_ for tok in doc]
     f.close()
