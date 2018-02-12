@@ -20,7 +20,7 @@ my $maxMemK;
 open (IN, "<$in") or die "ERROR: $0: can't open input file '$in': $!\n";
 
 while(<IN>) {
-  if (/System time.*:\s(\S+)\s*$/) {
+  if (/Elapsed \(wall clock\) time \(h:mm:ss or m:ss\):\s(\S+)\s*$/) {
     $sysTime = $1;
   }
   elsif (/Maximum resident set size.*:\s(\S+)\s*$/) {
