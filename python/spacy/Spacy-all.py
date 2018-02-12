@@ -17,7 +17,7 @@ for ff in files:
     f = open(root_dir + ff, 'r')
     paragraph = f.read()
     doc = nlp(paragraph)
-    sentences = list(doc.sents)
+#    sentences = list(doc.sents)
 #    [tok for tok in doc]
 #    [chunk  for chunk in doc.noun_chunks]
 #    [tok.lemma_ for tok in doc]
