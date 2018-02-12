@@ -1,2 +1,0 @@
-Max memory use: 0.110 Gb.
-Processing speed: 593.958 thousand toks/second.
