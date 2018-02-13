@@ -16,7 +16,7 @@ import java.nio.file.Paths;
  * Created by daniel on 1/24/18.
  */
 public class CogComp2ndTry {
-//    public static String f = "/Users/daniel/Desktop/corpusFilesPlain";
+//    public static String f = "/Users/daniel/Desktop/corpusFilesPlain/";
     public static String f = "/scratch/lrec-eval/corpusFilesPlain/";
 
     public static void main(String[] args) throws IOException, AnnotatorException {
@@ -100,9 +100,9 @@ public class CogComp2ndTry {
     public static void ner() throws IOException, AnnotatorException {
         File folder = new File(f);
         File[] listOfFiles = folder.listFiles();
+        System.out.println("listOfFiles.length: " + listOfFiles.length);
         AnnotatorService pipeline = PipelineFactory.buildPipeline(ViewNames.POS, ViewNames.LEMMA, ViewNames.SHALLOW_PARSE, ViewNames.NER_CONLL);
         System.out.println("Starting to evaluate . . . ");
-        System.out.println("listOfFiles.length: " + listOfFiles.length);
         for (int i = 0; i < listOfFiles.length; i++) {
             if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".txt")) {
                 String content = new String(Files.readAllBytes(Paths.get(listOfFiles[i].getPath())));
