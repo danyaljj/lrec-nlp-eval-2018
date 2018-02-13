@@ -1,19 +1,19 @@
 /scratch/lrec-eval/corpusFilesPlain/
 	Command being timed: "python3 nltk/nltk-all.py"
-	User time (seconds): 219.37
-	System time (seconds): 0.87
+	User time (seconds): 217.20
+	System time (seconds): 0.96
 	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:39.51
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:37.27
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 240040
+	Maximum resident set size (kbytes): 239088
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 53101
-	Voluntary context switches: 54
-	Involuntary context switches: 811395
+	Minor (reclaiming a frame) page faults: 53899
+	Voluntary context switches: 58
+	Involuntary context switches: 399323
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 8
