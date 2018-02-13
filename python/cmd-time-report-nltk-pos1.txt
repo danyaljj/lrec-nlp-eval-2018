@@ -1,23 +1,19 @@
-Traceback (most recent call last):
-  File "nltk/nltk-pos.py", line 5, in <module>
-    from python.nltk.get_folder import getFolder
-ImportError: No module named 'python'
-Command exited with non-zero status 1
-	Command being timed: "python3.5 nltk/nltk-pos.py"
-	User time (seconds): 0.50
-	System time (seconds): 0.85
-	Percent of CPU this job got: 308%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.44
+/scratch/lrec-eval/corpusFilesPlain/
+	Command being timed: "python3 nltk/nltk-pos.py"
+	User time (seconds): 40.90
+	System time (seconds): 0.88
+	Percent of CPU this job got: 102%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.85
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 67272
+	Maximum resident set size (kbytes): 115260
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 11891
-	Voluntary context switches: 29
-	Involuntary context switches: 488319
+	Minor (reclaiming a frame) page faults: 23978
+	Voluntary context switches: 50
+	Involuntary context switches: 473802
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 8
@@ -25,4 +21,4 @@ Command exited with non-zero status 1
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
-	Exit status: 1
+	Exit status: 0
