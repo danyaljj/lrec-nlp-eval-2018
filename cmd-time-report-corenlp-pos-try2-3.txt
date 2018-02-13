@@ -15,24 +15,24 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time: 02:12 min
-[INFO] Finished at: 2018-02-13T09:35:14-06:00
-[INFO] Final Memory: 219M/1146M
+[INFO] Finished at: 2018-02-13T09:46:29-06:00
+[INFO] Final Memory: 219M/1148M
 [INFO] ------------------------------------------------------------------------
 	Command being timed: "../apache-maven-3.5.2/bin/mvn exec:java -Dexec.mainClass=org.cogcomp.CogComp2ndTry -Dexec.args=pos"
-	User time (seconds): 34.42
-	System time (seconds): 2.89
+	User time (seconds): 34.14
+	System time (seconds): 2.87
 	Percent of CPU this job got: 27%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:14.27
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:13.86
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 874628
+	Maximum resident set size (kbytes): 872252
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 44515
-	Voluntary context switches: 31026
-	Involuntary context switches: 2001
+	Minor (reclaiming a frame) page faults: 47457
+	Voluntary context switches: 30630
+	Involuntary context switches: 2088
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 1148488

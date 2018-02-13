@@ -1,23 +1,46 @@
+Traceback (most recent call last):
+  File "textblob1/textblob-all.py", line 18, in <module>
+    w.lemmatize()
+  File "/home/khashab2/.local/lib/python3.5/site-packages/textblob/decorators.py", line 35, in decorated
+    return func(*args, **kwargs)
+  File "/home/khashab2/.local/lib/python3.5/site-packages/textblob/blob.py", line 146, in lemmatize
+    tag = _wordnet.NOUN
+  File "/home/khashab2/.local/lib/python3.5/site-packages/nltk/corpus/util.py", line 116, in __getattr__
+    self.__load()
+  File "/home/khashab2/.local/lib/python3.5/site-packages/nltk/corpus/util.py", line 84, in __load
+    corpus = self.__reader_cls(root, *self.__args, **self.__kwargs)
+  File "/home/khashab2/.local/lib/python3.5/site-packages/nltk/corpus/reader/wordnet.py", line 1113, in __init__
+    self._load_lemma_pos_offset_map()
+  File "/home/khashab2/.local/lib/python3.5/site-packages/nltk/corpus/reader/wordnet.py", line 1159, in _load_lemma_pos_offset_map
+    for i, line in enumerate(self.open('index.%s' % suffix)):
+  File "/home/khashab2/.local/lib/python3.5/site-packages/nltk/data.py", line 1221, in __next__
+    return self.next()
+  File "/home/khashab2/.local/lib/python3.5/site-packages/nltk/data.py", line 1214, in next
+    line = self.readline()
+  File "/home/khashab2/.local/lib/python3.5/site-packages/nltk/data.py", line 1164, in readline
+    self.linebuffer = None
+KeyboardInterrupt
+Command exited with non-zero status 1
 	Command being timed: "python3 textblob1/textblob-all.py"
-	User time (seconds): 69.65
-	System time (seconds): 1.06
-	Percent of CPU this job got: 101%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:09.87
+	User time (seconds): 1.92
+	System time (seconds): 1.13
+	Percent of CPU this job got: 160%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.90
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 201960
+	Maximum resident set size (kbytes): 156824
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 46084
-	Voluntary context switches: 51
-	Involuntary context switches: 593938
+	Minor (reclaiming a frame) page faults: 34853
+	Voluntary context switches: 60
+	Involuntary context switches: 470802
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 0
+	File system outputs: 8
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
-	Exit status: 0
+	Exit status: 1
