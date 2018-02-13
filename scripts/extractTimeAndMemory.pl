@@ -15,6 +15,7 @@ my $NUM_TOKS = 665233.0;
 my $in = shift;
 
 my $sysTime;
+my $usrTime;
 my $maxMemK;
 my $clockTime;
 
@@ -23,6 +24,9 @@ open (IN, "<$in") or die "ERROR: $0: can't open input file '$in': $!\n";
 while(<IN>) {
   if (/System time.*:\s(\S+)\s*$/) {
     $sysTime = $1;
+  }
+  if (/User time.*:\s(\S+)\s*$/) {
+    $usrTime = $1;
   }
   if (/Maximum resident set size.*:\s(\S+)\s*$/) {
     print "$1\n";
@@ -41,6 +45,11 @@ close IN;
 if ($sysTime > 0.0) {
     my $numToksPerSec = sprintf("%.3f", $NUM_TOKS / $sysTime);
     print STDOUT "Processing speed (system time): " . sprintf("%.3f", $numToksPerSec / 1000.0) . " thousand toks/second.\n";
+}
+
+if ($usrTime > 0.0) {
+    my $numToksPerSec2 = sprintf("%.3f", $NUM_TOKS / $usrTime);
+    print STDOUT "Processing speed (user time): " . sprintf("%.3f", $numToksPerSec2 / 1000.0) . " thousand toks/second.\n";
 }
 
 if ($clockTime > 0.0) {
