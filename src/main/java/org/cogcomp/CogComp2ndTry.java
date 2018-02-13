@@ -41,6 +41,7 @@ public class CogComp2ndTry {
     public static void tokenizer() throws IOException, AnnotatorException {
         File folder = new File(f);
         File[] listOfFiles = folder.listFiles();
+        System.out.println("listOfFiles.length: " + listOfFiles.length);
         AnnotatorService pipeline = PipelineFactory.buildPipeline();
         for (int i = 0; i < listOfFiles.length; i++) {
             if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".txt")) {
@@ -55,6 +56,7 @@ public class CogComp2ndTry {
     public static void pos() throws IOException, AnnotatorException {
         File folder = new File(f);
         File[] listOfFiles = folder.listFiles();
+        System.out.println("listOfFiles.length: " + listOfFiles.length);
         AnnotatorService pipeline = PipelineFactory.buildPipeline(ViewNames.POS);
         for (int i = 0; i < listOfFiles.length; i++) {
             if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".txt")) {
@@ -69,6 +71,7 @@ public class CogComp2ndTry {
     public static void lemma() throws IOException, AnnotatorException {
         File folder = new File(f);
         File[] listOfFiles = folder.listFiles();
+        System.out.println("listOfFiles.length: " + listOfFiles.length);
         AnnotatorService pipeline = PipelineFactory.buildPipeline(ViewNames.POS, ViewNames.LEMMA);
         for (int i = 0; i < listOfFiles.length; i++) {
             if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".txt")) {
@@ -99,6 +102,7 @@ public class CogComp2ndTry {
         File[] listOfFiles = folder.listFiles();
         AnnotatorService pipeline = PipelineFactory.buildPipeline(ViewNames.POS, ViewNames.LEMMA, ViewNames.SHALLOW_PARSE, ViewNames.NER_CONLL);
         System.out.println("Starting to evaluate . . . ");
+        System.out.println("listOfFiles.length: " + listOfFiles.length);
         for (int i = 0; i < listOfFiles.length; i++) {
             if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".txt")) {
                 String content = new String(Files.readAllBytes(Paths.get(listOfFiles[i].getPath())));
