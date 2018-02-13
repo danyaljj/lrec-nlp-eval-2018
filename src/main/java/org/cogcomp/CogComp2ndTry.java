@@ -107,7 +107,6 @@ public class CogComp2ndTry {
             if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".txt")) {
                 String content = new String(Files.readAllBytes(Paths.get(listOfFiles[i].getPath())));
                 TextAnnotation ta = pipeline.createAnnotatedTextAnnotation("", "", content);
-                System.out.println(ta.getAvailableViews());
             } else if (listOfFiles[i].isDirectory()) {
                 System.out.println("Directory " + listOfFiles[i].getName());
             }
