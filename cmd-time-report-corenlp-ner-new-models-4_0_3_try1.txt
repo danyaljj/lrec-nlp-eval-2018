@@ -1,0 +1,98 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lrec-nlp-eval 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for edu.illinois.cs.cogcomp:illinois-prepsrl-model:jar:3.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ lrec-nlp-eval ---
+Starting to execute thins ... 
+listOfFiles.length: 999
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting to evaluate . . . 
+Downloading the folder from datastore . . . 
+		GroupId: readonly.org.cogcomp.gazetteers
+		ArtifactId: 1.6/gazetteers.zip
+The target /home/khashab2/.cogcomp-datastore/readonly.org.cogcomp.gazetteers/1.6/gazetteers already exists. Skipping download from the datastore . . . 
+Downloading the folder from datastore . . . 
+		GroupId: readonly.org.cogcomp.brown-clusters
+		ArtifactId: 1.5/brown-clusters.zip
+The target /home/khashab2/.cogcomp-datastore/readonly.org.cogcomp.brown-clusters/1.5/brown-clusters already exists. Skipping download from the datastore . . . 
+Downloading the folder from datastore . . . 
+		GroupId: readonly.edu.illinois.cs.cogcomp.ner
+		ArtifactId: 4.0/ner-model-enron-conll-all-data.zip
+augmentedGroupId: readonly.edu.illinois.cs.cogcomp.ner
+versionedFileName: 4.0/ner-model-enron-conll-all-data.zip
+zippedFileName: /home/khashab2/.cogcomp-datastore/tmp/ner-model-enron-conll-all-data.zip
+file unzip : /home/khashab2/.cogcomp-datastore/readonly.edu.illinois.cs.cogcomp.ner/4.0/ner-model-enron-conll-all-data/model/EnronCoNLL.model.level1
+file unzip : /home/khashab2/.cogcomp-datastore/readonly.edu.illinois.cs.cogcomp.ner/4.0/ner-model-enron-conll-all-data/model/EnronCoNLL.model.level1.lex
+file unzip : /home/khashab2/.cogcomp-datastore/readonly.edu.illinois.cs.cogcomp.ner/4.0/ner-model-enron-conll-all-data/model/EnronCoNLL.model.level2.lex
+file unzip : /home/khashab2/.cogcomp-datastore/readonly.edu.illinois.cs.cogcomp.ner/4.0/ner-model-enron-conll-all-data/model/EnronCoNLL.model.level2
+Done
+zippedFileName: /home/khashab2/.cogcomp-datastore/tmp/ner-model-enron-conll-all-data.zip
+path: /home/khashab2/.cogcomp-datastore/readonly.edu.illinois.cs.cogcomp.ner/4.0/ner-model-enron-conll-all-data
+artifactId: ner-model-enron-conll-all-data
+Model file read from /home/khashab2/.cogcomp-datastore/readonly.edu.illinois.cs.cogcomp.ner/4.0/ner-model-enron-conll-all-data/model/EnronCoNLL.model.level1
+Model file read from /home/khashab2/.cogcomp-datastore/readonly.edu.illinois.cs.cogcomp.ner/4.0/ner-model-enron-conll-all-data/model/EnronCoNLL.model.level2
+[WARNING] thread Thread[OkHttp ConnectionPool,5,org.cogcomp.CogComp2ndTry] was interrupted but is still alive after waiting at least 15000msecs
+[WARNING] thread Thread[OkHttp ConnectionPool,5,org.cogcomp.CogComp2ndTry] will linger despite being asked to die via interruption
+[WARNING] thread Thread[Okio Watchdog,5,org.cogcomp.CogComp2ndTry] will linger despite being asked to die via interruption
+[WARNING] NOTE: 2 thread(s) did not finish despite being asked to  via interruption. This is not a problem with exec:java, it is a problem with the running code. Although not serious, it should be remedied.
+[WARNING] Couldn't destroy threadgroup org.codehaus.mojo.exec.ExecJavaMojo$IsolatedThreadGroup[name=org.cogcomp.CogComp2ndTry,maxpri=10]
+java.lang.IllegalThreadStateException
+    at java.lang.ThreadGroup.destroy (ThreadGroup.java:778)
+    at org.codehaus.mojo.exec.ExecJavaMojo.execute (ExecJavaMojo.java:321)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:134)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:208)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:51)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:309)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:194)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:107)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:955)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:290)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:194)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 05:19 min
+[INFO] Finished at: 2018-02-19T17:22:42-06:00
+[INFO] Final Memory: 3414M/6322M
+[INFO] ------------------------------------------------------------------------
+	Command being timed: "../apache-maven-3.5.2/bin/mvn exec:java -Dexec.mainClass=org.cogcomp.CogComp2ndTry -Dexec.args=ner"
+	User time (seconds): 461.62
+	System time (seconds): 19.86
+	Percent of CPU this job got: 148%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:23.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7905320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 90798
+	Voluntary context switches: 56027
+	Involuntary context switches: 4378
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1779584
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
